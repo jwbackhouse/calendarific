@@ -1,7 +1,9 @@
+// Full documentation available at https://calendarific.com/api-documentation
+
 // Set parameters here
-const COUNTRY = 'GB';
+const COUNTRY = 'GB'; // see list of supported countries here: https://calendarific.com/supported-countries
 const YEAR = 2021;
-const FILENAME = 'raw2022';
+const FILENAME = 'raw2021';
 const API_KEY = process.env.CALENDARIFIC; // set API key as global variable
 
 // External dependencies
@@ -16,7 +18,7 @@ const parameters = {
   year: YEAR,
 };
 
-const output = apiCall.holidays(parameters, function(data) {
+apiCall.holidays(parameters, function(data) {
   const string = JSON.stringify(data);
   const responseCode = data.meta.code;
   fs.writeFile(`./out/${FILENAME}.json`, string, (err) => {
