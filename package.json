@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/jwbackhouse/calendarific/issues"
   },
-  "homepage": "https://github.com/jwbackhouse/calendarific#readme"
+  "homepage": "https://github.com/jwbackhouse/calendarific#readme",
+  "dependencies": {
+    "calendarific": "^1.3.9",
+    "fs": "0.0.1-security"
+  }
 }
