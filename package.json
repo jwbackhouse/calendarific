@@ -1,0 +1,22 @@
+{
+  "name": "holiday_dates",
+  "version": "1.0.0",
+  "description": "Uses calendarific API to pull holiday dates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwbackhouse/calendarific.git"
+  },
+  "keywords": [
+    "skarp"
+  ],
+  "author": "James Backhouse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwbackhouse/calendarific/issues"
+  },
+  "homepage": "https://github.com/jwbackhouse/calendarific#readme"
+}
